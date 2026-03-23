@@ -1,6 +1,6 @@
 # swc-flow-parser-react-native
 
-Reproduction sample for [swc-project/swc#XXXX](https://github.com/swc-project/swc/issues/XXXX) — `swc_ecma_parser` Flow parser fails to parse valid Flow syntax.
+Reproduction sample for `swc_ecma_parser` Flow parser fails to parse valid Flow syntax.
 
 ## What this is
 
