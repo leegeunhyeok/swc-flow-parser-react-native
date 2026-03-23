@@ -1,0 +1,330 @@
+{
+  "collected": 466,
+  "failed": 81,
+  "details": [
+    {
+      "source": "Alert_Alert.js",
+      "reason": "Error { error: (8298..8310, Expected(\"{\", \"ident\")) }"
+    },
+    {
+      "source": "Animated_AnimatedEvent.js",
+      "reason": "Error { error: (18667..18668, TS1109) }"
+    },
+    {
+      "source": "Animated_AnimatedMock.js",
+      "reason": "Error { error: (53476..53477, TS1109) }"
+    },
+    {
+      "source": "Animated_components_AnimatedFlatList.js",
+      "reason": "Error { error: (99645..99646, Expected(\",\", \"=\")) }"
+    },
+    {
+      "source": "Animated_components_AnimatedSectionList.js",
+      "reason": "Error { error: (106248..106249, Expected(\",\", \"=\")) }"
+    },
+    {
+      "source": "Animated_createAnimatedComponent.js",
+      "reason": "Error { error: (110191..110204, Expected(\"{\", \"ident\")) }"
+    },
+    {
+      "source": "Animated_nodes_AnimatedInterpolation.js",
+      "reason": "Error { error: (139851..139852, Expected(\")\", \":\")) }"
+    },
+    {
+      "source": "Animated_nodes_AnimatedNode.js",
+      "reason": "Error { error: (146958..146959, Unexpected { got: \")\", expected: \"an identifier, void, yield, null, await, break, a string literal, a numeric literal, true, false, `, -, import, this, typeof, {, [, (\" }) }"
+    },
+    {
+      "source": "Animated_nodes_AnimatedValue.js",
+      "reason": "Error { error: (194775..194776, Expected(\")\", \":\")) }"
+    },
+    {
+      "source": "BatchedBridge_MessageQueue.js",
+      "reason": "Error { error: (216975..216978, Unexpected { got: \"...\", expected: \"an identifier, void, yield, null, await, break, a string literal, a numeric literal, true, false, `, -, import, this, typeof, {, [, (\" }) }"
+    },
+    {
+      "source": "BatchedBridge_NativeModules.js",
+      "reason": "Error { error: (237680..237681, TS1109) }"
+    },
+    {
+      "source": "Blob_URLSearchParams.js.flow",
+      "reason": "Error { error: (268358..268359, Unexpected { got: \"@\", expected: \"identifier, string literal, numeric literal or [ for the computed key\" }) }"
+    },
+    {
+      "source": "Components_ActivityIndicator_ActivityIndicator.js",
+      "reason": "Error { error: (292850..292853, TS1109) }"
+    },
+    {
+      "source": "Components_Button.js",
+      "reason": "Error { error: (296525..296536, Expected(\"{\", \"ident\")) }"
+    },
+    {
+      "source": "Components_DrawerAndroid_DrawerLayoutAndroidTypes.js",
+      "reason": "Error { error: (321865..321889, Expected(\"{\", \"ident\")) }"
+    },
+    {
+      "source": "Components_LayoutConformance_LayoutConformance.js",
+      "reason": "Error { error: (341649..341650, Expected(\";\", \"(\")) }"
+    },
+    {
+      "source": "Components_Pressable_Pressable.js",
+      "reason": "Error { error: (344823..344824, Expected(\")\", \":\")) }"
+    },
+    {
+      "source": "Components_ProgressBarAndroid_ProgressBarAndroid.android.js",
+      "reason": "Error { error: (356864..356867, TS1109) }"
+    },
+    {
+      "source": "Components_RefreshControl_RefreshControl.js",
+      "reason": "Error { error: (363317..363318, Unexpected { got: \")\", expected: \"an identifier, void, yield, null, await, break, a string literal, a numeric literal, true, false, `, -, import, this, typeof, {, [, (\" }) }"
+    },
+    {
+      "source": "Components_SafeAreaView_SafeAreaView.js",
+      "reason": "Error { error: (368572..368579, TS1109) }"
+    },
+    {
+      "source": "Components_ScrollView_ScrollView.js",
+      "reason": "Error { error: (386932..386933, Expected(\";\", \"(\")) }"
+    },
+    {
+      "source": "Components_ScrollView_ScrollViewNativeComponentType.js",
+      "reason": "Error { error: (453151..453172, Expected(\"{\", \"ident\")) }"
+    },
+    {
+      "source": "Components_ScrollView_ScrollViewStickyHeader.js",
+      "reason": "Error { error: (456905..456908, TS1109) }"
+    },
+    {
+      "source": "Components_Switch_Switch.js",
+      "reason": "Error { error: (488220..488221, Expected(\")\", \":\")) }"
+    },
+    {
+      "source": "Components_TextInput_InputAccessoryView.js",
+      "reason": "Error { error: (517384..517385, TS1109) }"
+    },
+    {
+      "source": "Components_TextInput_TextInput.flow.js",
+      "reason": "Error { error: (546305..546306, Expected(\")\", \":\")) }"
+    },
+    {
+      "source": "Components_TextInput_TextInput.js",
+      "reason": "Error { error: (586258..586261, TS1109) }"
+    },
+    {
+      "source": "Components_Touchable_TouchableBounce.js",
+      "reason": "Error { error: (647085..647086, Unexpected { got: \")\", expected: \"an identifier, void, yield, null, await, break, a string literal, a numeric literal, true, false, `, -, import, this, typeof, {, [, (\" }) }"
+    },
+    {
+      "source": "Components_Touchable_TouchableHighlight.js",
+      "reason": "Error { error: (655571..655572, Unexpected { got: \")\", expected: \"an identifier, void, yield, null, await, break, a string literal, a numeric literal, true, false, `, -, import, this, typeof, {, [, (\" }) }"
+    },
+    {
+      "source": "Components_Touchable_TouchableNativeFeedback.js",
+      "reason": "Error { error: (673093..673094, TS1109) }"
+    },
+    {
+      "source": "Components_Touchable_TouchableOpacity.js",
+      "reason": "Error { error: (692715..692718, TS1109) }"
+    },
+    {
+      "source": "Components_Touchable_TouchableWithoutFeedback.js",
+      "reason": "Error { error: (694125..694154, Expected(\"{\", \"ident\")) }"
+    },
+    {
+      "source": "Components_View_View.js",
+      "reason": "Error { error: (711626..711630, ExpectedSemiForExprStmt { expr: 711616..711625 }) }"
+    },
+    {
+      "source": "Components_View_ViewPropTypes.js",
+      "reason": "Error { error: (728003..728004, Expected(\")\", \":\")) }"
+    },
+    {
+      "source": "Core_setUpErrorHandling.js",
+      "reason": "Error { error: (802019..802020, TS1109) }"
+    },
+    {
+      "source": "Core_setUpSegmentFetcher.js",
+      "reason": "Error { error: (818644..818645, TS1109) }"
+    },
+    {
+      "source": "Core_setUpTimers.js",
+      "reason": "Error { error: (821023..821024, TS1109) }"
+    },
+    {
+      "source": "Debugging_DebuggingOverlay.js",
+      "reason": "Error { error: (826453..826454, Expected(\";\", \"(\")) }"
+    },
+    {
+      "source": "Debugging_DebuggingOverlayRegistry.js",
+      "reason": "Error { error: (830065..830066, TS1109) }"
+    },
+    {
+      "source": "Debugging_useSubscribeToDebuggingOverlayRegistry.js",
+      "reason": "Error { error: (845257..845258, TS1109) }"
+    },
+    {
+      "source": "Image_Image.android.js",
+      "reason": "Error { error: (863942..863943, Expected(\")\", \":\")) }"
+    },
+    {
+      "source": "Image_ImageInjection.js",
+      "reason": "Error { error: (893373..893374, TS1109) }"
+    },
+    {
+      "source": "Image_ImageProps.js",
+      "reason": "Error { error: (895625..895638, Expected(\"{\", \"ident\")) }"
+    },
+    {
+      "source": "Image_ImageTypes.flow.js",
+      "reason": "Error { error: (914171..914191, Expected(\"{\", \"ident\")) }"
+    },
+    {
+      "source": "Interaction_InteractionManager.js",
+      "reason": "Error { error: (936739..936740, Expected(\")\", \":\")) }"
+    },
+    {
+      "source": "LayoutAnimation_LayoutAnimation.js",
+      "reason": "Error { error: (967924..967944, Expected(\"{\", \"ident\")) }"
+    },
+    {
+      "source": "Lists_FlatList.js",
+      "reason": "Error { error: (983754..983755, Expected(\")\", \":\")) }"
+    },
+    {
+      "source": "Lists_SectionList.js",
+      "reason": "Error { error: (1006111..1006112, Expected(\")\", \":\")) }"
+    },
+    {
+      "source": "Lists_SectionListModern.js",
+      "reason": "Error { error: (1015453..1015454, Expected(\")\", \":\")) }"
+    },
+    {
+      "source": "LogBox_Data_LogBoxData.js",
+      "reason": "Error { error: (1025694..1025695, Unexpected { got: \")\", expected: \"an identifier, void, yield, null, await, break, a string literal, a numeric literal, true, false, `, -, import, this, typeof, {, [, (\" }) }"
+    },
+    {
+      "source": "LogBox_Data_LogBoxLog.js",
+      "reason": "Error { error: (1039963..1039976, Expected(\"{\", \"ident\")) }"
+    },
+    {
+      "source": "LogBox_LogBox.js",
+      "reason": "Error { error: (1063510..1063511, Expected(\",\", \"<\")) }"
+    },
+    {
+      "source": "LogBox_UI_LogBoxButton.js",
+      "reason": "Error { error: (1080449..1080450, Expected(\")\", \":\")) }"
+    },
+    {
+      "source": "LogBox_UI_LogBoxInspectorHeaderButton.js",
+      "reason": "Error { error: (1099153..1099154, Unexpected { got: \")\", expected: \"an identifier, void, yield, null, await, break, a string literal, a numeric literal, true, false, `, -, import, this, typeof, {, [, (\" }) }"
+    },
+    {
+      "source": "LogBox_UI_LogBoxInspectorSourceMapStatus.js",
+      "reason": "Error { error: (1110644..1110645, Expected(\")\", \":\")) }"
+    },
+    {
+      "source": "LogBox_UI_LogBoxInspectorStackFrame.js",
+      "reason": "Error { error: (1114013..1114014, Expected(\")\", \":\")) }"
+    },
+    {
+      "source": "LogBox_UI_LogBoxMessage.js",
+      "reason": "Error { error: (1125037..1125038, TS1109) }"
+    },
+    {
+      "source": "Modal_Modal.js",
+      "reason": "Error { error: (1139738..1139751, Expected(\"{\", \"ident\")) }"
+    },
+    {
+      "source": "Pressability_Pressability.js",
+      "reason": "Error { error: (1243612..1243630, Expected(\"{\", \"ident\")) }"
+    },
+    {
+      "source": "ReactNative_AppContainer.js",
+      "reason": "Error { error: (1311103..1311104, TS1109) }"
+    },
+    {
+      "source": "ReactNative_BridgelessUIManager.js",
+      "reason": "Error { error: (1323849..1323850, Unexpected { got: \")\", expected: \"an identifier, void, yield, null, await, break, a string literal, a numeric literal, true, false, `, -, import, this, typeof, {, [, (\" }) }"
+    },
+    {
+      "source": "ReactNative_RendererImplementation.js",
+      "reason": "Error { error: (1373551..1373552, Unexpected { got: \"(\", expected: \"yield, an identifier, [ or {\" }) }"
+    },
+    {
+      "source": "ReactNative_getCachedComponentWithDebugName.js",
+      "reason": "Error { error: (1387084..1387085, Expected(\";\", \"(\")) }"
+    },
+    {
+      "source": "ReactNative_getNativeComponentAttributes.js",
+      "reason": "Error { error: (1392913..1392914, Expected(\")\", \":\")) }"
+    },
+    {
+      "source": "ReactNative_renderApplication.js",
+      "reason": "Error { error: (1395427..1395428, Expected(\";\", \"(\")) }"
+    },
+    {
+      "source": "ReactNative_requireNativeComponent.js",
+      "reason": "Error { error: (1399110..1399111, Unexpected { got: \"{\", expected: \"jsx identifier\" }) }"
+    },
+    {
+      "source": "Renderer_shims_ReactNativeTypes.js",
+      "reason": "Error { error: (1413941..1413956, Expected(\"{\", \"ident\")) }"
+    },
+    {
+      "source": "Renderer_shims_ReactNativeViewConfigRegistry.js",
+      "reason": "Error { error: (1418129..1418130, Unexpected { got: \"?\", expected: \"yield, an identifier, [ or {\" }) }"
+    },
+    {
+      "source": "StyleSheet_PlatformColorValueTypes.android.js",
+      "reason": "Error { error: (1433005..1433006, TS1109) }"
+    },
+    {
+      "source": "StyleSheet_PlatformColorValueTypes.ios.js",
+      "reason": "Error { error: (1434577..1434578, TS1109) }"
+    },
+    {
+      "source": "StyleSheet_private__TransformStyle.js",
+      "reason": "Error { error: (1502377..1502378, Expected(\";\", \",\")) }"
+    },
+    {
+      "source": "StyleSheet_processBackgroundPosition.js",
+      "reason": "Error { error: (1533677..1533678, TS1109) }"
+    },
+    {
+      "source": "Text_Text.js",
+      "reason": "Error { error: (1579413..1579414, ExpectedSemiForExprStmt { expr: 1579275..1579413 }) }"
+    },
+    {
+      "source": "Text_TextNativeComponent.js",
+      "reason": "Error { error: (1606935..1606950, Expected(\"{\", \"ident\")) }"
+    },
+    {
+      "source": "Text_TextProps.js",
+      "reason": "Error { error: (1612371..1612372, Expected(\")\", \":\")) }"
+    },
+    {
+      "source": "Types_ReactDevToolsTypes.js",
+      "reason": "Error { error: (1632308..1632331, Expected(\"{\", \"ident\")) }"
+    },
+    {
+      "source": "Utilities_PlatformTypes.js",
+      "reason": "Error { error: (1681513..1681514, Expected(\";\", \",\")) }"
+    },
+    {
+      "source": "Utilities_RCTLog.js",
+      "reason": "Error { error: (1687842..1687845, Unexpected { got: \"...\", expected: \"an identifier, void, yield, null, await, break, a string literal, a numeric literal, true, false, `, -, import, this, typeof, {, [, (\" }) }"
+    },
+    {
+      "source": "WebSocket_WebSocketInterceptor.js",
+      "reason": "Error { error: (1749948..1749949, Expected(\")\", \",\")) }"
+    },
+    {
+      "source": "vendor_core_ErrorUtils.js",
+      "reason": "Error { error: (1759531..1759541, Expected(\"{\", \"ident\")) }"
+    },
+    {
+      "source": "vendor_emitter_EventEmitter.js",
+      "reason": "Error { error: (1762157..1762158, Expected(\";\", \",\")) }"
+    }
+  ]
+}

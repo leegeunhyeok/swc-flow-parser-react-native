@@ -1,14 +1,12 @@
 # swc-flow-parser-react-native
 
-SWC Flow parser validation tool for React Native source files.
+Reproduction sample for [swc-project/swc#XXXX](https://github.com/swc-project/swc/issues/XXXX) — `swc_ecma_parser` Flow parser fails to parse valid Flow syntax.
 
-## Purpose
+## What this is
 
-[swc-project/swc#11685](https://github.com/swc-project/swc/pull/11685) (merged 2026-03-16) added Flow parsing support to `swc_ecma_parser`. This tool validates that the new parser can correctly handle React Native's Flow source files from `node_modules/react-native/Libraries`.
+Minimal reproduction code that collects `@flow` annotated files from `react-native@0.84.1` and parses them with `swc_ecma_parser`'s `Syntax::Flow` mode, producing a failure report.
 
 ## How it works
-
-Two-stage pipeline:
 
 1. **collect** — Walks `../node_modules/react-native/Libraries`, finds `.js` / `.js.flow` files containing `@flow`, copies them to `./flow/` with flattened filenames (`path/to/file.js` → `path_to_file.js`)
 2. **parse** — Reads all files in `./flow/`, parses each with `Syntax::Flow` (jsx + all + enums enabled), writes a `report.json` summarizing successes and failures
@@ -40,8 +38,8 @@ just parse     # Stage 2: parse and produce report.json
 
 ```json
 {
-  "collected": 123,
-  "failed": 4,
+  "collected": 466,
+  "failed": 81,
   "details": [
     {
       "source": "Components_View_View.js",
