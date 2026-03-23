@@ -1,0 +1,7 @@
+{
+  "name": "swc-flow-parser-react-native",
+  "packageManager": "yarn@4.13.0",
+  "dependencies": {
+    "react-native": "^0.84.1"
+  }
+}
