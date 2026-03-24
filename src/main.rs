@@ -85,10 +85,15 @@ fn parse() {
 
     let cm: Lrc<SourceMap> = Default::default();
     let syntax = Syntax::Flow(FlowSyntax {
+        // Enabled all Flow features
         jsx: true,
-        all: true,
         enums: true,
-        ..Default::default()
+        components: true,
+        decorators: true,
+        pattern_matching: true,
+        // `@flow` directive checks
+        all: true,
+        require_directive: false,
     });
 
     let mut entries: Vec<fs::DirEntry> = fs::read_dir(flow_dir)
